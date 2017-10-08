@@ -45,7 +45,7 @@ RevealRecalled = () => {
 }
 
 inter = setInterval(RevealRecalled,100)
-clearInterval(inter);
+//clearInterval(inter);
 
 //delete \n  : keydown may produce <br> in html instead of text box  OK
 //if own message : don't reveal
